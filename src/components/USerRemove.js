@@ -32,11 +32,12 @@ export default class UserRemove extends React.Component {
       <Container className="p-3 mb-4 mt-5 ">
                 <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
-            <Accordion.Header><h2>Delete Equipment</h2></Accordion.Header>
+            <Accordion.Header><h2>Delete User</h2></Accordion.Header>
             <Accordion.Body>
 
-     <h2 className='mb-4'>Delete User</h2>
+    
       <form onSubmit={this.handleSubmit}>
+      <Form.Label>ID</Form.Label>
       <InputGroup className="mb-3" >
         <Form.Control
           placeholder="User ID"

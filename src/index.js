@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UserList from "./components/UserList";
 import { BrowserRouter } from 'react-router-dom';
+import Scan from './components/Scan';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

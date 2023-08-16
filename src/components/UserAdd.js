@@ -67,9 +67,9 @@ export default class UserAdd extends React.Component {
       <Container className="p-3 mb-4 mt-5 ">
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
-            <Accordion.Header><h2>Create Equipment</h2></Accordion.Header>
+            <Accordion.Header><h2>Create User</h2></Accordion.Header>
             <Accordion.Body>
-      <h2>Create User</h2>
+      
        <Form onSubmit={this.handleSubmit}>
       <Form.Group className="mb-3" >
         <Form.Label>ID</Form.Label>
